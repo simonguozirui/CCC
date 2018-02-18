@@ -3,6 +3,7 @@ TXTMSG =  file.readlines()
 file.close()
 
 TXTMSG = map(lambda s: s.strip(), TXTMSG)
+
 for i in range(len(TXTMSG)):
 	if TXTMSG[i] == "CU":
 		print ("see you")
